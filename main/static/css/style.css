@@ -1,0 +1,462 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --bg: white;
+    --icon: black;
+    --text: black;
+    --card: black;
+}
+.dark{
+    --bg: black;
+    --icon: white;
+    --text: white;
+    --card: black;
+}
+body{
+    background: var(--bg) !important;
+    color: var(--text) !important;
+}
+.jonah{
+    margin-left: 3%;
+    cursor: pointer;
+}
+/* styling navbar  */
+.navbar{
+    background-color: brown;
+}
+.navbar ul a{
+    color: white;
+}
+.nav-item .dropdown-menu{
+    background-color: brown;
+}
+.search button{
+    background-color: green;
+    color: white;
+}
+.nav-item i{
+    font-size: 25px;
+}
+.nav-item img{
+    height: 30px;
+    border-radius: 100%;
+}
+/* styling navbar done  */
+
+/* styling carousel  */
+.carousel-inner{
+    height: 80vh;
+}
+.carousel-control-prev i{
+    font-size: 50px;
+    color: white;
+}
+.carousel-control-next i{
+    font-size: 50px;
+    color: white;
+}
+/* styling carousel done  */
+
+/* styling meal  */
+.title{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: brown;
+    font-size: 40px;
+}
+.bestsell .card img{
+    height: 60vh;
+    transition: 0.5s;
+}
+.bestsell .card img:hover{
+    transform: scale(1.2);
+}
+.bestsell .card p{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: brown;
+}
+.enjoy{
+    background: url(../img/carousel3.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+.enjoy h3{
+    text-transform: capitalize;
+    color: white;
+    padding-top: 8%;
+}
+.enjoy button{
+    background: brown;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+.enjoy button:hover{
+    background: brown;
+    color: black;
+}
+/* styling meal done  */
+
+/* styling offer  */
+.offer .card{
+    border-radius: 50%;
+}
+.offer .card img{
+    height: 30vh;
+    border-radius: 50%;
+    opacity: 1;
+    transition: 0.5s;
+}
+.offer .card img:hover{
+    transform: scale(1.2);
+}
+/* styling offer done  */
+
+/* styling contact  */
+.contact form{
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+}
+.contact form label{
+    font-weight: 600;
+}
+.contact form button{
+    background-color: brown;
+    width: 100%;
+    border: none;
+}
+.contact form button:hover{
+    background: brown;
+    border: none;
+}
+/* styling contact done  */
+
+/* styling footer  */
+.footer{
+    background: black;
+}
+.footer1{
+    text-align: center;
+}
+.footer1 h4{
+    color: white;
+    text-transform: capitalize;
+}
+.footer1 h3{
+    text-transform: capitalize;
+    color: brown;
+}
+.footer1 ul a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+}
+.footer1 ul a:hover{
+    color: brown;
+}
+.footer ul i{
+    color: white;
+    font-size: 20px;
+    transform: 1s;
+    cursor: pointer;
+    
+}
+.footer1 ul i:hover{
+    transform: translateY(-10px);
+    color: brown;
+}
+.footer2 p{
+    color: white;
+    text-transform: capitalize;
+}
+/* styling footer done  */
+
+/* styling meal category  */
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(../img/banner.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food{
+    padding-bottom: 4%;
+}
+
+.food .card{
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 10%;
+    box-shadow: 0 0 30px 0 brown;
+    transition: 1s;
+}
+.food .card:hover{
+    transform: translateY(-30px);
+}
+.food .card img{
+    height: 200px;
+    padding: 3%;
+    border-bottom: 2px solid brown;
+}
+.food .card-body h5{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.food .card-body p{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    color: brown;
+}
+.food .card-body button{
+    text-transform: capitalize;
+    background: brown;
+    color: white;
+}
+/* styling meal category done  */
+
+/* styling login  */
+.login{
+    width: 30%!important;
+}
+.nav-item .active{
+    background: brown !important;
+    color: white !important;
+}
+.login #tab-register{
+    color: brown;
+    font-weight: 600;
+}
+
+.log button{
+    background: brown;
+    border: none;
+}
+.log{
+    text-align: center;
+}
+.reg button{
+    color: brown;
+}
+.login #tab-login{
+    color: brown;
+    font-weight: 600;
+}
+
+.pass{
+    position: relative;
+}
+.show{
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    cursor: pointer;
+}
+.show .bi-eye-fill{
+    display: none;
+}
+.show.hide .bi-eye-fill{
+    display: block;
+}
+.show.hide .bi-eye-slash-fill{
+    display: none;
+}
+/* styling login done  */
+
+/* styling cart  */
+.cart table{
+    width: 100%;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    outline: 2px solid brown;
+}
+.cart thead{
+    background-color: brown;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+.cart tbody{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.cart tbody img{
+    height: 70px;
+}
+.cart tbody i{
+    color: brown;
+    cursor: pointer;
+    font-size: 20px;
+}
+.item td{
+    border: 2px solid brown;
+}
+.subtot td{
+    font-weight: 700;
+}
+.cartbut button{
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* styling cart done  */
+
+/* styling checkout  */
+.cart h1{
+    text-transform: capitalize;
+    color: brown;
+}
+.total td{
+    font-weight: 700;
+    font-size: 30px;
+}
+.checkbut button{
+    background-color: brown;
+    border: none;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.checkbut button:hover{
+    background-color: brown;
+}
+.check form input{
+    border-color: brown !important;
+}
+.check form textarea{
+    border-color: brown;
+}
+/* styling checkout done  */
+
+
+
+@media (min-width: 320px) and (max-width: 768px){
+    .carousel-inner{
+        height: 40vh;
+    }
+    .carousel-control-prev i{
+        font-size: 30px;
+        color: white;
+    }
+    .carousel-control-next i{
+        font-size: 30px;
+        color: white;
+    }
+    .title{
+        text-transform: capitalize;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        color: brown;
+        font-size: 30px;
+    }
+    .contact form{
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .cart table{
+        width: 100%;
+        outline: 2px solid brown;
+    }
+    .item td button{
+        font-size: 12px;
+        padding-top: 2%;
+    }
+    .total td{
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+/* styling for profile  */
+
+.pavat{
+    text-align: center;
+    background-color: brown;
+    border-radius: 1rem;
+}
+.pavat img{
+    height: 200px;
+    border-radius: 100%;
+    outline: 4px solid brown;
+    padding-top: 3%;
+}
+.pavat h4{
+    text-transform: capitalize;
+    margin-top: 4%;
+    color: white;
+    font-style: italic;
+}
+.pform form{
+    outline: 2px solid brown;
+    padding: 3%;
+}
+.pform form label{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.qlink{
+    background: brown;
+    border-radius: 1rem;
+}
+.qlink h2{
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-top: 5%;
+}
+.qlink ul{
+    list-style: none;
+    padding-top: 5%;
+}
+.qlink ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.qlink ul li:hover{
+    background-color: white;
+}
+.qlink ul a:hover{
+    color: brown;
+    font-weight: 500;
+}
+.updatebtn button{
+    background: brown;
+    border: none;
+}
+.updatebtn button:hover{
+    background: brown;
+}
+/* styling for profile done  */
+
+/* styling callback  */
+.call p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 4%;
+    text-transform: capitalize;
+}
+.call span{
+    font-weight: 700;
+    font-style: italic;
+    color: brown;
+}
+/* styling callback done  */
